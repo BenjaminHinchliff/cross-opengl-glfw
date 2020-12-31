@@ -1,0 +1,3 @@
+C:/Users/benja/source/repos/gggllllgllglllglfw/out/build/x64-Debug/_deps/glad-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/benja/source/repos/gggllllgllglllglfw/out/build/x64-Debug/_deps/glad-subbuild/CMakeFiles/glad-populate.dir
+C:/Users/benja/source/repos/gggllllgllglllglfw/out/build/x64-Debug/_deps/glad-subbuild/CMakeFiles/rebuild_cache.dir

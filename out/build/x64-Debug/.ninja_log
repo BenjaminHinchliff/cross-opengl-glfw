@@ -1,0 +1,9 @@
+# ninja log v5
+0	4273	631146892	glad_installed	193610e3bab3e920
+4273	6665	631146898	gladsources/glad_33/include/KHR/khrplatform.h	a99908bc83532f2e
+4273	6665	631146898	gladsources/glad_33/include/glad/gl.h	a99908bc83532f2e
+4273	6665	631146898	gladsources/glad_33/src/gl.c	a99908bc83532f2e
+6665	6923	631146899	CMakeFiles/glad_33.dir/gladsources/glad_33/src/gl.c.obj	e8b472152e62c18e
+6923	6961	631146899	glad_33.lib	155eb0cb1414705d
+6667	7289	631146899	src/CMakeFiles/tetros.dir/main.cpp.obj	57302b39233db6af
+7290	7974	631146899	src/tetros.exe	82a47dc15aae9ca0

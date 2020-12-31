@@ -1,0 +1,10 @@
+C:/Users/benja/source/repos/gggllllgllglllglfw/out/build/x64-Release/CMakeFiles/glad_install.dir
+C:/Users/benja/source/repos/gggllllgllglllglfw/out/build/x64-Release/CMakeFiles/regenerate_glad_33.dir
+C:/Users/benja/source/repos/gggllllgllglllglfw/out/build/x64-Release/CMakeFiles/glad_33.dir
+C:/Users/benja/source/repos/gggllllgllglllglfw/out/build/x64-Release/CMakeFiles/edit_cache.dir
+C:/Users/benja/source/repos/gggllllgllglllglfw/out/build/x64-Release/CMakeFiles/rebuild_cache.dir
+C:/Users/benja/source/repos/gggllllgllglllglfw/out/build/x64-Release/_deps/glad-build/CMakeFiles/edit_cache.dir
+C:/Users/benja/source/repos/gggllllgllglllglfw/out/build/x64-Release/_deps/glad-build/CMakeFiles/rebuild_cache.dir
+C:/Users/benja/source/repos/gggllllgllglllglfw/out/build/x64-Release/src/CMakeFiles/tetros.dir
+C:/Users/benja/source/repos/gggllllgllglllglfw/out/build/x64-Release/src/CMakeFiles/edit_cache.dir
+C:/Users/benja/source/repos/gggllllgllglllglfw/out/build/x64-Release/src/CMakeFiles/rebuild_cache.dir

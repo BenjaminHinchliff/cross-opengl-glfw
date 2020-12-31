@@ -1,0 +1,9 @@
+# ninja log v5
+1	3221	6311422032830000	glad_installed	947bf6db7d0c301d
+3222	4636	6311422077355130	gladsources/glad_33/include/KHR/khrplatform.h	334d19010cf696da
+3222	4636	6311422077355130	gladsources/glad_33/include/glad/gles2.h	334d19010cf696da
+3222	4636	6311422077355130	gladsources/glad_33/src/gles2.c	334d19010cf696da
+4637	5286	6311422085335607	CMakeFiles/glad_33.dir/gladsources/glad_33/src/gles2.c.o	587faa9ca45b4cd6
+5287	5561	6311422087015600	libglad_33.a	5fa294e22ee5ad2d
+4639	6016	6311422092585599	src/CMakeFiles/tetros.dir/main.cpp.o	249a2fe3c27f89ef
+6017	8239	6311422113864892	src/tetros.html	decf1c1294ffb3f6

@@ -1,0 +1,19 @@
+# ninja log v5
+0	120	6311421465978687	glad-populate-prefix/src/glad-populate-stamp/glad-populate-mkdir	e138e548469724e7
+120	2280	6311421487576996	glad-populate-prefix/src/glad-populate-stamp/glad-populate-download	25ca9ee7ba8a694b
+0	80	0	glad-populate-prefix/src/glad-populate-stamp/glad-populate-update	44b52c4f237dcc30
+112	144	6311421979154783	glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure	7e73f06b9e3e2cc9
+80	111	6311421978824677	glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch	cee2c89f46e8055b
+144	178	6311421979484784	glad-populate-prefix/src/glad-populate-stamp/glad-populate-build	80f0d333f325a64d
+178	213	6311421979844804	glad-populate-prefix/src/glad-populate-stamp/glad-populate-install	ed260725c40db386
+213	246	6311421980164783	glad-populate-prefix/src/glad-populate-stamp/glad-populate-test	f4529a635570573a
+246	293	6311421980634779	CMakeFiles/glad-populate-complete	aab2069e2bcc821
+246	293	6311421980634779	glad-populate-prefix/src/glad-populate-stamp/glad-populate-done	aab2069e2bcc821
+0	74	0	glad-populate-prefix/src/glad-populate-stamp/glad-populate-update	44b52c4f237dcc30
+74	106	6311422001866003	glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch	cee2c89f46e8055b
+106	137	6311422002176002	glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure	7e73f06b9e3e2cc9
+137	169	6311422002496002	glad-populate-prefix/src/glad-populate-stamp/glad-populate-build	80f0d333f325a64d
+169	202	6311422002826003	glad-populate-prefix/src/glad-populate-stamp/glad-populate-install	ed260725c40db386
+202	234	6311422003146003	glad-populate-prefix/src/glad-populate-stamp/glad-populate-test	f4529a635570573a
+234	279	6311422003596002	CMakeFiles/glad-populate-complete	aab2069e2bcc821
+234	279	6311422003596002	glad-populate-prefix/src/glad-populate-stamp/glad-populate-done	aab2069e2bcc821

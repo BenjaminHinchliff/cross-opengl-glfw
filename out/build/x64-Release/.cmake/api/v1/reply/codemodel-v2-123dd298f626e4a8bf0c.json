@@ -1,0 +1,127 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "_deps/glad-build",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Release/_deps/glad-src/cmake"
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2
+					],
+					"name" : "gggllllgllglllglfw",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "glad",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "glad_33::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glad_33-RelWithDebInfo-ea813e51c7a6dde513d4.json",
+					"name" : "glad_33",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glad_install::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glad_install-RelWithDebInfo-e8b946c8bdfa302bea93.json",
+					"name" : "glad_install",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "regenerate_glad_33::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-regenerate_glad_33-RelWithDebInfo-3a5eab860ae0acbc3375.json",
+					"name" : "regenerate_glad_33",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tetros::@145eef247bfb46b6828c",
+					"jsonFile" : "target-tetros-RelWithDebInfo-3690634c2a8b811f7fca.json",
+					"name" : "tetros",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/benja/source/repos/gggllllgllglllglfw/out/build/x64-Release",
+		"source" : "C:/Users/benja/source/repos/gggllllgllglllglfw"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
