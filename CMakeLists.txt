@@ -1,6 +1,10 @@
 ﻿cmake_minimum_required(VERSION 3.11)
 
-project("gggllllgllglllglfw")
+project("Cross OpenGL GLFW"
+	VERSION 1.0.0
+	DESCRIPTION "an example of using opengl (es) with glfw that works on windows, linux, mac, and the web"
+	HOMEPAGE_URL "https://github.com/BenjaminHinchliff/cross-opengl-glfw"
+	LANGUAGES CXX C)
 
 # find or get glfw if not on web
 if(NOT EMSCRIPTEN)
