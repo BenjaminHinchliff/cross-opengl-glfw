@@ -39,39 +39,40 @@ FetchContent_Declare(
 	GIT_TAG ${glad_TAG}
 )
 
-FetchContent_GetProperties(glad)
-if(NOT glad_POPULATED)
-	set(FETCHCONTENT_QUIET NO)
-	FetchContent_Populate(glad)
-
-	add_subdirectory("${glad_SOURCE_DIR}/cmake" "${glad_BINARY_DIR}")
-endif()
-
-if (CMAKE_HOST_WIN32)
-add_custom_command(
-	OUTPUT glad_installed
-	COMMAND type nul >> glad_installed & copy glad_installed +,,
-	COMMAND python -m pip install git+https://github.com/Dav1dde/glad.git@${glad_TAG}
-)
-else()
-add_custom_command(
-	OUTPUT glad_installed
-	COMMAND touch glad_installed
-	COMMAND python -m pip install git+https://github.com/Dav1dde/glad.git@${glad_TAG}
-)
-endif()
-
-# install pip dependencies
-add_custom_target(glad_install DEPENDS glad_installed)
 
 if(EMSCRIPTEN)
 	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -s USE_GLFW=3 -s ASSERTIONS=1 -s WASM=1 -s ASYNCIFY")
 	set(CMAKE_EXECUTABLE_SUFFIX ".html")
-	glad_add_library(glad_33 REPRODUCIBLE API gles2=2.0)
 else()
-	glad_add_library(glad_33 REPRODUCIBLE API gl:core=3.3)
-endif()
+	FetchContent_GetProperties(glad)
+	if(NOT glad_POPULATED)
+		set(FETCHCONTENT_QUIET NO)
+		FetchContent_Populate(glad)
 
-add_dependencies(glad_33 glad_install)
+		add_subdirectory("${glad_SOURCE_DIR}/cmake" "${glad_BINARY_DIR}")
+	endif()
+
+	# don't generage glad bindings for emscripten
+	if (CMAKE_HOST_WIN32)
+		add_custom_command(
+			OUTPUT glad_installed
+			COMMAND type nul >> glad_installed && copy glad_installed +,,
+			COMMAND python -m pip install git+https://github.com/Dav1dde/glad.git@${glad_TAG}
+		)
+	else()
+		add_custom_command(
+			OUTPUT glad_installed
+			COMMAND touch glad_installed
+			COMMAND python -m pip install git+https://github.com/Dav1dde/glad.git@${glad_TAG}
+		)
+	endif()
+
+	# install pip dependencies
+	add_custom_target(glad_install DEPENDS glad_installed)
+
+	glad_add_library(glad_33 REPRODUCIBLE API gl:core=3.3)
+
+	add_dependencies(glad_33 glad_install)
+endif()
 
 add_subdirectory("src")

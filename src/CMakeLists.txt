@@ -12,5 +12,8 @@ configure_file("${CMAKE_CURRENT_LIST_DIR}/shaders.in.hpp" "${CMAKE_CURRENT_BINAR
 
 add_executable(tetros WIN32 "main.cpp")
 
-target_link_libraries(tetros PUBLIC glfw glad_33)
+target_link_libraries(tetros PUBLIC glfw)
+if(NOT EMSCRIPTEN)
+	target_link_libraries(tetros PUBLIC glad_33)
+endif()
 target_include_directories(tetros PUBLIC "${CMAKE_CURRENT_BINARY_DIR}/config")
