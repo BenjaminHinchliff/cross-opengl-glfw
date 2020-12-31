@@ -1,9 +1,0 @@
-# ninja log v5
-0	4026	631147026	glad_installed	9b557b28a39d9051
-4026	6408	631147032	gladsources/glad_33/include/KHR/khrplatform.h	6462e2e667a6a543
-4026	6408	631147032	gladsources/glad_33/include/glad/gl.h	6462e2e667a6a543
-4026	6408	631147032	gladsources/glad_33/src/gl.c	6462e2e667a6a543
-6408	6881	631147033	CMakeFiles/glad_33.dir/gladsources/glad_33/src/gl.c.obj	fa37fa3a03f32c57
-6881	6929	631147033	glad_33.lib	155eb0cb1414705d
-6410	7047	631147033	src/CMakeFiles/tetros.dir/main.cpp.obj	ca0dac633549681
-7047	7734	631147034	src/tetros.exe	65e088101287d5bb
